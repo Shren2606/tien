@@ -1,0 +1,31 @@
+waypoints:
+- name: waypoint1
+  orientation:
+    w: 0.7143
+    x: -0.0003
+    y: -0.0003
+    z: 0.6998
+  position:
+    x: -1.6907
+    y: 0.8087
+    z: 0.0109
+- name: waypoint2
+  orientation:
+    w: 0.9994
+    x: -0.0
+    y: -0.0
+    z: -0.0342
+  position:
+    x: 1.7632
+    y: 0.4291
+    z: 0.0112
+- name: waypoint3
+  orientation:
+    w: 0.627
+    x: -0.0001
+    y: 0.0001
+    z: -0.779
+  position:
+    x: 1.4645
+    y: -0.6712
+    z: 0.0101

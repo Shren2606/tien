@@ -1,0 +1,11 @@
+<launch>
+    <!-- Chạy node map_to_odom_tf_broadcaster -->
+    <node pkg="auto_nav" type="basetobase.py" name="map_to_odom_tf_broadcaster" output="screen" />
+
+    <!-- Chạy node odom_to_base_footprint_tf_broadcaster -->
+    <node pkg="auto_nav" type="basetobase2.py" name="odom_to_base_footprint_tf_broadcaster" output="screen" />
+
+    <!-- Chạy node base_footprint_to_base_link_tf_broadcaster -->
+    <node pkg="auto_nav" type="basetobase3.py" name="base_footprint_to_base_link_tf_broadcaster" output="screen" />
+</launch>
+
